@@ -1,0 +1,12 @@
+@use '../../../component/base';
+
+.box-1 {
+    @extend %position;
+    top: 1rem;
+    left: 0;
+
+    width: 6rem;
+    height: 6rem;
+
+    // background-color: base.$backgroundColor;
+}
