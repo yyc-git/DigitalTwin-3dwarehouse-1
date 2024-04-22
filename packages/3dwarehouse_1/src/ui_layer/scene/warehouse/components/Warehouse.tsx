@@ -51,10 +51,10 @@ let Warehouse: React.FC = () => {
                 return null
             case modeEnum.Default:
             default:
-                // return (
-                //     <Box1 />
-                // )
-                return null
+                return (
+                    <Box1 />
+                )
+                // return null
         }
     }
 
